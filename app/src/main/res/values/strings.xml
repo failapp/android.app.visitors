@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name">Control Visitas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">Control Visitas</string>
+    <string name="nav_header_subtitle">Sistema control visitas</string>
+    <string name="nav_header_desc">App: Sistema control visitas móvil</string>
+
+    <string name="action_settings">Configuración</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- validacion formularios .. -->
+    <string name="error_required_field">campo requerido</string>
+    <string name="error_field_numeric">campo numérico</string>
+    <string name="dni_digits">-0123456789.kK</string>
+
+    <!-- formulario registro control acceso (fragment) .. -->
+    <string name="general_data">datos generales</string>
+    <string name="area_visited">area visitada</string>
+    <string name="company">empresa</string>
+    <string name="dni">cédula de identidad</string>
+    <string name="first_name">nombre(s)</string>
+    <string name="last_name">apellido(s)</string>
+    <string name="area">area / sección</string>
+    <string name="company_particular">empresa / organización</string>
+    <string name="btn_register">registrar acceso</string>
+
+    <string name="texto_logo">arquitectura en tecnología y equipos</string>
+
+    <string-array name="gender_options">
+        <item>Femenino</item>
+        <item>Masculino</item>
+    </string-array>
+    <string name="gender_prompt">Genero</string>
+
+
+</resources>

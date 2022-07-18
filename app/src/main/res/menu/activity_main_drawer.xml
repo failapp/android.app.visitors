@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ic_person"
+            android:title="Ingreso" />
+        <item
+            android:id="@+id/nav_register_list"
+            android:icon="@drawable/ic_search_black"
+            android:title="Registros Ent/Sal" />
+        <item
+            android:id="@+id/nav_persons_registers"
+            android:icon="@drawable/ic_persons_black"
+            android:title="Visitas" />
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_stat"
+            android:title="Estadísticas" />
+    </group>
+
+    <item android:title="Configuración">
+        <menu>
+            <item
+                android:id="@+id/nav_config_app"
+                android:icon="@drawable/ic_settings_black"
+                android:title="Parámetros Generales" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Comunicación" />
+        </menu>
+    </item>
+
+</menu>
